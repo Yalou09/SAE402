@@ -1,7 +1,7 @@
-body{
-background-image : url("fond.jpg");
-
-background-repeat: no-repeat;
-background-position: top;
+#home{
 width: 100%;
-height: 100%;}
+height: 100%;
+}
+h1{
+    margin-bottom : 50% !important;
+}
