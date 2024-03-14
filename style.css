@@ -2,10 +2,16 @@
     margin: 0px;
     padding:0px;
     }
+@font-face{
+    font-family: 'Inknut';
+    src: url(fonts/inknut-antiqua/InknutAntiqua-Bold.ttf);
 
+}
+
+/*CSS BODY*/
 
 .imagedefond{
-    background-image: url('fond.jpg');
+    background-image: url('images/fond.jpg');
     background-size: cover;
     width: 100%; 
     height: 100vh;
@@ -19,5 +25,19 @@
     text-align: center;
     font-size: 5em;
     padding-top: 200px;
+    font-family: 'Inknut';
+}
+
+/*Image maps*/
+
+.fond-bleu{
+    background-color: #026CA2;
+    
+}
+#maps{
+    margin-top: 100px;
+    /*width: 1300px;*/
+    
+    justify-content: center;
     
 }
