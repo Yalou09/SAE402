@@ -46,7 +46,9 @@ loader.load(
 
 //Instantiate a new renderer and set its size
 const renderer = new THREE.WebGLRenderer({ alpha: false }); //Alpha: true allows for the transparent background
-renderer.setSize(window.innerWidth, window.innerHeight);
+var canvasWidth = 1300;
+var canvasHeight = 600;
+renderer.setSize(canvasWidth, canvasHeight);
 
 //Add the renderer to the DOM
 document.getElementById("container3D").appendChild(renderer.domElement);
